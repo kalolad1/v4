@@ -180,14 +180,20 @@ const Nav = ({ isHome }) => {
                 navLinks.map(({ url, name }, i) => (
                   <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
                     <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                      <Link to={url}>{name}</Link>
+                      {!(name in { Blog: 0, YouTube: 1 }) ? (
+                        <Link to={url}>{name}</Link>
+                      ) : (
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                          {name}
+                        </a>
+                      )}
                     </li>
                   </CSSTransition>
                 ))}
             </TransitionGroup>
           </ol>
 
-          <TransitionGroup component={null}>
+          {/*<TransitionGroup component={null}>
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
@@ -201,7 +207,7 @@ const Nav = ({ isHome }) => {
                 </div>
               </CSSTransition>
             )}
-          </TransitionGroup>
+          </TransitionGroup>*/}
         </StyledLinks>
 
         <TransitionGroup component={null}>

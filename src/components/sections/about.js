@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  // const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,27 +141,41 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Hello! I'm Darshan, a software engineer and medical student interested in healthcare
+              technology.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I started college at <a href="https://tcnj.edu/">TCNJ</a> as a Biology major. My
+              second semester in, I thought I'd take a CS course for fun. I loved it so much that I
+              switched my major (but stayed pre-med)!
+            </p>
+            <p>
+              While at TCNJ, I was fortunate enough to work at{' '}
+              <a href="https://www.google.com/">Google</a>,{' '}
+              <a href="https://www.youtube.com/">YouTube</a>, and{' '}
+              <a href="https://www.mskcc.org/">Memorial Sloan Kettering</a>.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Currently, I'm a student at{' '}
+              <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>. I've
+              recently been interested in{' '}
+              <a href="https://www.calnewport.com/books/digital-minimalism/">Digital Minimalism</a>
+              —a philosophy of judicial use of digital technology such as social media, the
+              internet, and email. I write about this topic in my{' '}
+              <a href="https://darshankalola.substack.com/">blog</a> and make videos about it on{' '}
+              <a href="https://www.youtube.com/channel/UC1EWk_QTDakqpCVE-wfnh4w">YouTube</a>.
+            </p>
+
+            {/*<p>Here are a few technologies I've been working with recently:</p>*/}
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          {/*
+            <ul className="skills-list">
+              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+          */}
         </StyledText>
 
         <StyledPic>
