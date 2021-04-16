@@ -1,7 +1,7 @@
 ---
 date: '2016-08-01'
 title: 'CS'
-company: 'The College of New Jersey'
+company: 'TCNJ'
 location: 'Ewing'
 range: '2016 - 2020'
 url: 'https://tcnj.edu/'

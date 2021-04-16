@@ -1,7 +1,7 @@
 ---
 date: '2012-05-14'
 title: 'Student'
-company: 'Deptford Township High School'
+company: 'DTHS'
 location: 'Deptford Township, NJ'
 range: '2012 - 2016'
 url: 'https://deptfordhs.deptfordschools.org/'

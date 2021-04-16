@@ -1,7 +1,7 @@
 ---
 date: '2020-12-21'
 title: 'M1'
-company: 'New Jersey Medical School'
+company: 'NJMS'
 location: 'Newark, NJ'
 range: 'August 2020 - Present'
 url: 'http://njms.rutgers.edu/'
