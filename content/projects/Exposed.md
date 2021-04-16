@@ -10,4 +10,4 @@ company: ''
 showInProjects: true
 ---
 
-Exposed is an Android application developed with image capturing functionality that provides incentives for group members to arrive promptly at scheduled group events. Won Best Technical Achievement at HackTCNJ 2017.
+An Android application that provides incentives for group members to arrive on time for events. Won Best Technical Achievement at HackTCNJ 2017.

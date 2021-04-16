@@ -7,4 +7,4 @@ range: 'January - March 2019'
 url: 'https://careers.google.com/'
 ---
 
-- Worked on novel biometric authentication strategy for devices
+- Implemented a novel biometric authentication strategy for mobile devices

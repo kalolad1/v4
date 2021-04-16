@@ -10,4 +10,4 @@ company: ''
 showInProjects: true
 ---
 
-A web app that identifies SNP's in an individual's genome and displays relevant clinical indications.
+A web app that identifies SNPs in an individual's genome and displays relevant clinical diseases.

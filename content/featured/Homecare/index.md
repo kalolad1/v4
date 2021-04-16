@@ -10,4 +10,4 @@ tech:
   - BetterDoctor API
 ---
 
-Homecare is an app that allows users to learn more about musculoskeletal injuries. It guides them through several simple physical exams.
+An app that allows users to learn more about musculoskeletal injuries.

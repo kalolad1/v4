@@ -7,4 +7,4 @@ range: 'Summer 2020'
 url: 'https://www.youtube.com/jobs/'
 ---
 
-- Built and shipped a new recommendations shelf on the YouTube Living Room App
+- Built and shipped a new recommendations shelf on YouTube Living Room

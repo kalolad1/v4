@@ -11,4 +11,4 @@ company: ''
 showInProjects: true
 ---
 
-An app that simulates a tabla (percussion) instrument, created through Xcode, UIBezzierPath, and the SoundKey framework. +3k downloads on the iOS App Store. No longer available.
+An app that simulates a tabla (percussion) instrument. +3k downloads on the iOS App Store.

@@ -12,4 +12,4 @@ company: ''
 showInProjects: true
 ---
 
-Uncoated allows users to send anonymous, pre-made messages to other individuals in their contacts to facilitate honest social feedback.
+An iOS app that allows users to send anonymous, honest social feedback to their friends.

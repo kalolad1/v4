@@ -7,4 +7,4 @@ range: 'Summer 2019'
 url: 'https://www.mskcc.org/'
 ---
 
-- Wrote genetic algorithms to generate cardiac action potential models
+- Wrote genetic algorithms to generate cardiac cell action potential models
