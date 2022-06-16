@@ -142,7 +142,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Darshan, a software engineer and medical student interested in healthcare
+              Hello! I'm Darshan, a medical student and software engineer interested in healthcare
               technology.
             </p>
 
@@ -159,14 +159,9 @@ const About = () => {
             </p>
 
             <p>
-              Currently, I'm a student at{' '}
-              <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>. I've
-              recently been interested in{' '}
-              <a href="https://www.calnewport.com/books/digital-minimalism/">Digital Minimalism</a>
-              —a philosophy of judicial use of digital technology such as social media, the
-              internet, and email. I write about this topic in my{' '}
-              <a href="https://darshankalola.substack.com/">blog</a> and make videos about it on{' '}
-              <a href="https://www.youtube.com/channel/UC1EWk_QTDakqpCVE-wfnh4w">YouTube</a>.
+              Currently, I'm a third-year student at{' '}
+              <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>, where I am
+              planning on pursuing a career in Urology.
             </p>
 
             {/*<p>Here are a few technologies I've been working with recently:</p>*/}
