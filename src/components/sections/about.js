@@ -161,7 +161,7 @@ const About = () => {
             <p>
               Currently, I'm a third-year student at{' '}
               <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>, where I am
-              planning on pursuing a career in Urology.
+              pursuing a career in Urology.
             </p>
 
             {/*<p>Here are a few technologies I've been working with recently:</p>*/}
