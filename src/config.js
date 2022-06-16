@@ -29,14 +29,6 @@ module.exports = {
       name: 'Work',
       url: '/#projects',
     },
-    {
-      name: 'Blog',
-      url: 'https://darshankalola.substack.com/',
-    },
-    {
-      name: 'YouTube',
-      url: 'https://www.youtube.com/channel/UC1EWk_QTDakqpCVE-wfnh4w',
-    },
     // {
     //   name: 'Contact',
     //   url: '/#contact',

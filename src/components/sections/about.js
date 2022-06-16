@@ -147,9 +147,9 @@ const About = () => {
             </p>
 
             <p>
-              I started college at <a href="https://tcnj.edu/">TCNJ</a> as a Biology major. My
-              second semester, I thought I'd take a CS course for fun. I loved it so much that I
-              switched my major (but stayed pre-med)!
+              I started college at <a href="https://tcnj.edu/">TCNJ</a> as a Biology major in the
+              7-year accelerated BS/MD program. My second semester, I thought I'd take a CS course
+              for fun. I loved it so much that I switched my major (but stayed pre-med)!
             </p>
             <p>
               While at TCNJ, I was fortunate enough to intern at{' '}
