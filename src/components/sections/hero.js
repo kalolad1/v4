@@ -52,8 +52,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
   const four = (
     <p>
-      I'm a medical student and software egineer interested in designing the next-generation of
-      healthcare technology.
+      I'm a medical student, software engineer, and aspiring ophthalmologist interested in healthcare technology.
     </p>
   );
   const five = (
