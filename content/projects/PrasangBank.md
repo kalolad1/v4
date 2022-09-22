@@ -2,7 +2,7 @@
 date: '2021-04-24'
 title: 'Prasang Bank'
 github: ''
-external: 'https://www.prasangbank.com/'
+external: 'https://www.baps.org/'
 ios: ''
 android: ''
 tech:
