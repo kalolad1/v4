@@ -227,7 +227,7 @@ const Education = () => {
 
   return (
     <StyledEducationSection id="education" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Studied</h2>
+      <h2 className="numbered-heading">Education</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={e => onKeyDown(e)}>
