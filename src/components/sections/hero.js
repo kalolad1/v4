@@ -49,10 +49,10 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Darshan Kalola</h2>;
-  const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
+  // const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
   const four = (
     <p>
-      I'm a software engineer and 3rd-year medical student interested in ophthalmology and healthcare technology.
+      I'm a 3rd-year medical student interested in ophthalmology and healthcare technology.
     </p>
   );
   const five = (
@@ -61,7 +61,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, four, five];
 
   return (
     <StyledHeroSection>

@@ -144,28 +144,29 @@ const Research = () => {
       <div className="inner">
         <StyledText>
           <div className="research-item">
-            <h4>Presentations</h4>
+            <h4>Manuscripts</h4>
             <ol>
-              <li><strong>Darshan Kalola</strong>, John DeGood. Analysis of electronic health records feature sets. Celebration of Computing. December 2019.</li>
-              <li><strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David Christini. Induced pluripotent cardiac stem cell modeling with genetic algorithms. Weill Cornell/Memorial Sloan Kettering Computational Biology Summer Symposium. August 2019.</li>
-              <li><strong>Darshan Kalola</strong>, Jun Huang, Nick Post. Use of deep neural networks for photoplethysmography based biometric authentication. Google Artificial Intelligence Healthcare All Hands. March 2019.</li>
-              <li><strong>Darshan Kalola</strong>, Dmitris Papamichail. Computational tools for de novo gene design. Celebration of Computing. April 2018.</li>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/35781252/"><li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li></a>
+              <li>Hojun Yoo, Sudeep Peddireddy, <strong>Darshan Kalola</strong>, Douglas J. Opler. Experiences of psilohuasca use as reported on online internet forums. <i>Submitted to Journal of Psychoactive Drugs in March 2022.</i></li>
             </ol>
-
             <br/>
+
             <h4>Abstracts</h4>
             <ol>
-              <li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/35781252/"><li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li></a>
               <li><strong>Darshan Kalola</strong>, Sudeep Peddireddy, Temitope Ali, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Youtube as a source of information for binge eating disorder. <i>Submitted to Urban Health Symposium, 2022.</i></li>
               <li>Temitope Ali, <strong>Darshan Kalola</strong>, Sudeep Peddireddy, Allison Dinar, Ozlem Gunal, Petros Levounis. Evaluating the Impact of Stigmatized Search Queries When Using Youtube as a Source of Information for Substance Use Disorder. <i>Submitted to Urban Health Symposium, 2022.</i></li>
               <li><strong>Darshan Kalola</strong>, Rocheny Noziere, Mehdi Lemdani, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Curation Of Mental Health Keyword Search Amongst Social Media Platforms. <i>Submitted to Urban Health Symposium, 2022.</i></li>
               <li><strong>Darshan Kalola</strong>, Aretha Zhu, Arjun Gupta, Navya Pendyala, Ishani Patel, Miriam Habiel. AI-Based Sentiment Analysis Of Postoperative Experiences Of Various Refractive Surgeries As Reported On An Online Internet Forum. <i>Submitted to ASCRS, 2022.</i></li>
             </ol>
             <br/>
-            <h4>Manuscripts</h4>
+
+            <h4>Presentations</h4>
             <ol>
-              <a href="https://pubmed.ncbi.nlm.nih.gov/35781252/"><li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li></a>
-              <li style={{marginBottom: "0"}}>Hojun Yoo, Sudeep Peddireddy, <strong>Darshan Kalola</strong>, Douglas J. Opler. Experiences of psilohuasca use as reported on online internet forums. <i>Submitted to Journal of Psychoactive Drugs in March 2022.</i></li>
+              <li><strong>Darshan Kalola</strong>, John DeGood. Analysis of electronic health records feature sets. Celebration of Computing. December 2019.</li>
+              <li><strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David Christini. Induced pluripotent cardiac stem cell modeling with genetic algorithms. Weill Cornell/Memorial Sloan Kettering Computational Biology Summer Symposium. August 2019.</li>
+              <li><strong>Darshan Kalola</strong>, Jun Huang, Nick Post. Use of deep neural networks for photoplethysmography based biometric authentication. Google Artificial Intelligence Healthcare All Hands. March 2019.</li>
+              <li style={{marginBottom: "0"}}><strong>Darshan Kalola</strong>, Dmitris Papamichail. Computational tools for de novo gene design. Celebration of Computing. April 2018.</li>
             </ol>
           </div>
         </StyledText>
