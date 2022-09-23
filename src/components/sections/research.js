@@ -32,7 +32,6 @@ const StyledText = styled.div`
 
     li {
       position: relative;
-      margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
