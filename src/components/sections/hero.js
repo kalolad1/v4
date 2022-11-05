@@ -52,7 +52,7 @@ const Hero = () => {
   // const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
   const four = (
     <p>
-      I'm a 3rd-year medical student interested in ophthalmology and healthcare technology.
+      I'm a 3rd-year medical student interested in medicine and technology.
     </p>
   );
   const five = (

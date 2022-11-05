@@ -161,7 +161,6 @@ const About = () => {
             <p>
               Currently, I'm a third-year student at{' '}
               <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>.
-              I will be applying to ophthalmology in the 2023 cycle.
             </p>
 
             {/*<p>Here are a few technologies I've been working with recently:</p>*/}
