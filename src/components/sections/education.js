@@ -7,15 +7,17 @@ import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 
 const StyledEducationSection = styled.section`
-  max-width: 700px;
+  max-width: 900px;
 
-  .inner {
-    display: flex;
+.inner {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
 
-    @media (max-width: 600px) {
-      display: block;
-    }
+  @media (max-width: 768px) {
+    display: block;
   }
+}
 `;
 
 const StyledTabList = styled.div`
@@ -30,12 +32,12 @@ const StyledTabList = styled.div`
     display: flex;
     overflow-x: auto;
     width: calc(100% + 100px);
-    margin-left: -50px;
+    // margin-left: -50px;
     margin-bottom: 30px;
   }
   @media (max-width: 480px) {
     width: calc(100% + 50px);
-    margin-left: -25px;
+    // margin-left: -25px;
   }
 
   li {
@@ -119,7 +121,7 @@ const StyledHighlight = styled.div`
 `;
 
 const StyledTabPanels = styled.div`
-  margin-left: 20px;
+  margin-left: 0;
 
   @media (max-width: 600px) {
     margin-left: 0;
@@ -230,7 +232,7 @@ const Education = () => {
       <h2 className="numbered-heading">Education</h2>
 
       <div className="inner">
-        <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={e => onKeyDown(e)}>
+        {/* <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={e => onKeyDown(e)}>
           {educationData &&
             educationData.map(({ node }, i) => {
               const { company } = node.frontmatter;
@@ -250,7 +252,7 @@ const Education = () => {
               );
             })}
           <StyledHighlight activeTabId={activeTabId} />
-        </StyledTabList>
+        </StyledTabList> */}
 
         <StyledTabPanels>
           {educationData &&
@@ -266,7 +268,7 @@ const Education = () => {
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}>
+                    >
                     <h3>
                       <span>{title}</span>
                       <span className="company">

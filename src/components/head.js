@@ -33,9 +33,10 @@ const Head = ({ title, description, image }) => {
     twitterUsername,
   } = site.siteMetadata;
 
+  const customDescription = "Hello! My name is Darshan Kalola and I am a software engineer, 4th-year medical student, and author interested in healthcare technology."
   const seo = {
-    title: title || defaultTitle,
-    description: description || defaultDescription,
+    title: "Darshan Kalola" || defaultTitle,
+    description: description || customDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };

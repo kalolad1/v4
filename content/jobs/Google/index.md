@@ -7,4 +7,5 @@ range: 'January - March 2019'
 url: 'https://careers.google.com/'
 ---
 
-- Implemented a novel biometric authentication strategy for mobile devices
+- Worked on the Google Cloud AI Healthcare team
+- Implemented a novel biometric authentication strategy for mobile devices using deep learning

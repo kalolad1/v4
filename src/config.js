@@ -3,12 +3,16 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/kalolad1',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/kalolad1',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/KalolaDarshan',
+    },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/kalolad1',
     },
   ],
 
@@ -33,10 +37,10 @@ module.exports = {
       name: 'Projects',
       url: '/#projects',
     },
-    // {
-    //   name: 'Contact',
-    //   url: '/#contact',
-    // },
+    {
+      name: 'Blog',
+      url: 'https://darshankalola.substack.com/',
+    },
   ],
 
   colors: {

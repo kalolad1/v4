@@ -1,10 +1,11 @@
 ---
 date: '2020-12-21'
-title: 'M3'
-company: 'NJMS'
+title: 'M4'
+company: 'Rutgers New Jersey Medical School'
 location: 'Newark, NJ'
-range: 'August 2020 - Present'
+range: '2020 - 2025'
 url: 'http://njms.rutgers.edu/'
 ---
 
-- Conditionally accepted out of high school as part of the accelerated 7-year medical program
+- Step 2 CK Board Exam: 271 (95th percentile)
+- Conditionally accepted in high school as part of the accelerated 7-year medical program
