@@ -7,10 +7,6 @@ module.exports = {
       url: 'https://www.linkedin.com/in/kalolad1',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/KalolaDarshan',
-    },
-    {
       name: 'GitHub',
       url: 'https://github.com/kalolad1',
     },

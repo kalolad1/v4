@@ -1541,6 +1541,18 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@upstatement/eslint-config@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.npmjs.org/@upstatement/eslint-config/-/eslint-config-0.4.3.tgz"
+  integrity sha512-I5wYURRsCUpYyTkyq/AOF+aNglJAde2Kzlq297pQ2r61AatUgn84Jw4CsYR6rgQNmTinpLtb8uwi12mOIaM8zg==
+
+"@upstatement/prettier-config@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/@upstatement/prettier-config/-/prettier-config-0.3.0.tgz"
+  integrity sha512-/DCKpd5tsgZ7Mshb7MSLdFkPRXHxZhzEKJP9ZW58ix0ARw1nbrcdbyiovHEutiQqmh4OjdLJjIAJ2MVUiEaB+Q==
+  dependencies:
+    prettier "^1.x.x"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.9.0.tgz"
@@ -2156,7 +2168,7 @@ babel-core@7.0.0-bridge.0:
   resolved "https://registry.npmjs.org/babel-core/-/babel-core-7.0.0-bridge.0.tgz"
   integrity sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
 
-babel-eslint@^10.1.0, babel-eslint@10.x:
+babel-eslint@^10.1.0, babel-eslint@^10.x.x, babel-eslint@10.x:
   version "10.1.0"
   resolved "https://registry.npmjs.org/babel-eslint/-/babel-eslint-10.1.0.tgz"
   integrity sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
@@ -4712,7 +4724,7 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5, escape-string-regexp@1
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^6.10.1:
+eslint-config-prettier@^6.10.1, eslint-config-prettier@^6.x.x:
   version "6.10.1"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz"
   integrity sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
@@ -4859,7 +4871,7 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@*, "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0", eslint@^6.8.0, "eslint@>= 4.12.1", "eslint@>=1.6.0 <7.0.0", eslint@>=3.14.1, eslint@>=5.0.0, "eslint@2.x - 6.x", eslint@6.x:
+eslint@*, "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0", eslint@^6.8.0, eslint@^6.x.x, "eslint@>= 4.12.1", "eslint@>=1.6.0 <7.0.0", eslint@>=3.14.1, eslint@>=5.0.0, "eslint@2.x - 6.x", eslint@6.x:
   version "6.8.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-6.8.0.tgz"
   integrity sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig==
@@ -10698,7 +10710,7 @@ prepend-http@^2.0.0:
   resolved "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@^2.0.4:
+prettier@^1.x.x, prettier@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/prettier/-/prettier-2.0.4.tgz"
   integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
