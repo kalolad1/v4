@@ -1,6 +1,6 @@
 ---
 date: '2016-08-01'
-title: 'Computer Science'
+title: 'Bachelor of Computer Science'
 company: 'The College of New Jersey'
 location: 'Ewing'
 range: '2016 - 2020'

@@ -6,7 +6,6 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
 
   .inner {
     display: grid;
@@ -159,7 +158,7 @@ const About = () => {
             </p>
 
             <p>
-              During my first two years of medical school, I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>. Reach out to me if you'd like an author copy!{' '}
+              During my first two years of medical school, I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>.
             </p>
 
             <p>

@@ -7,16 +7,13 @@ import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 
 const StyledEducationSection = styled.section`
-  max-width: 900px;
 
 .inner {
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-gap: 50px;
 
-  @media (max-width: 768px) {
-    display: block;
-  }
+  display: block;
 }
 `;
 
@@ -71,7 +68,7 @@ const StyledTabButton = styled.button`
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
   font-family: var(--font-mono);
-  font-size: var(--fz-xs);
+  font-size: 20px;
   text-align: left;
   white-space: nowrap;
 
@@ -135,13 +132,11 @@ const StyledTabPanel = styled.div`
 
   ul {
     ${({ theme }) => theme.mixins.fancyList};
+    font-size: var(--fz-xl);
   }
 
   h3 {
     margin-bottom: 2px;
-    font-size: var(--fz-xxl);
-    font-weight: 500;
-    line-height: 1.3;
 
     .company {
       color: var(--green);

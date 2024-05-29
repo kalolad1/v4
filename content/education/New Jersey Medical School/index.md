@@ -1,6 +1,6 @@
 ---
 date: '2020-12-21'
-title: 'M4'
+title: 'Medical Doctorate'
 company: 'Rutgers New Jersey Medical School'
 location: 'Newark, NJ'
 range: '2020 - 2025'

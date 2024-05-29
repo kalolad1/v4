@@ -7,4 +7,4 @@ range: 'Summer 2018'
 url: 'https://www.att.com/'
 ---
 
-- Developed a Node.js Chatbot to perform real device testing
+- Developed a Node.js Chatbot to perform real device Voice over Internet Protocol (VoIP) testing.

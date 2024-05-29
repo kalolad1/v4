@@ -8,5 +8,6 @@ url: 'https://www.harvard.edu/'
 ---
 
 - Presidential Scholar (full-tuition)
-- Digital Health startup accepted to HealthLab Accelerator ($2,500 grant)
+- Fellow, Student Leaders in Artificial Intelligence
+- Founded digital health startup Pillanti, which was accepted to Harvard HealthLab Accelerator (awarded $10k grant)
 - Director of Operations and Events of the Public Health Innovation and Technology Club

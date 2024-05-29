@@ -6,16 +6,13 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 
 const StyledResearchSection = styled.section`
-  max-width: 900px;
 
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
 
-    @media (max-width: 768px) {
-      display: block;
-    }
+    display: block;
   }
   .research-item li {
      margin-bottom: 12px;
@@ -143,24 +140,26 @@ const Research = () => {
       <div className="inner">
         <StyledText>
           <div className="research-item">
-            <h4>Manuscripts</h4>
+            <h3>Books</h3>
+            <ol>
+              <a href="https://a.co/d/gJyAmN0"><li><strong>Darshan Kalola</strong>. The Digital Dilemma: Essays on Technology, Social Media, and Digital Minimalism. Amazon KDP. 2022.</li></a>
+            </ol>
+
+            <h3>Research Manuscripts</h3>
             <ol>
               <a href="https://pubmed.ncbi.nlm.nih.gov/35781252/"><li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li></a>
               <li>Hojun Yoo, Sudeep Peddireddy, <strong>Darshan Kalola</strong>, Douglas J. Opler. Experiences of psilohuasca use as reported on online internet forums. <i>Submitted to Journal of Psychoactive Drugs in March 2022.</i></li>
             </ol>
-            <br/>
 
-            <h4>Abstracts</h4>
+            <h3>Abstracts</h3>
             <ol>
-              <a href="https://pubmed.ncbi.nlm.nih.gov/35781252/"><li>Alexander P. Clark, Siyu Wei, <strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David J. Christini. An in silico-in vitro pipeline for drug cardiotoxicity screening identifies ionic proarrhythmia mechanisms. British Journal Pharmacology. 2022.</li></a>
-              <li><strong>Darshan Kalola</strong>, Sudeep Peddireddy, Temitope Ali, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Youtube as a source of information for binge eating disorder. <i>Submitted to Urban Health Symposium, 2022.</i></li>
-              <li>Temitope Ali, <strong>Darshan Kalola</strong>, Sudeep Peddireddy, Allison Dinar, Ozlem Gunal, Petros Levounis. Evaluating the Impact of Stigmatized Search Queries When Using Youtube as a Source of Information for Substance Use Disorder. <i>Submitted to Urban Health Symposium, 2022.</i></li>
-              <li><strong>Darshan Kalola</strong>, Rocheny Noziere, Mehdi Lemdani, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Curation Of Mental Health Keyword Search Amongst Social Media Platforms. <i>Submitted to Urban Health Symposium, 2022.</i></li>
-              <li><strong>Darshan Kalola</strong>, Aretha Zhu, Arjun Gupta, Navya Pendyala, Ishani Patel, Miriam Habiel. AI-Based Sentiment Analysis Of Postoperative Experiences Of Various Refractive Surgeries As Reported On An Online Internet Forum. <i>Submitted to ASCRS, 2022.</i></li>
+              <li><strong>Darshan Kalola</strong>, Sudeep Peddireddy, Temitope Ali, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Youtube as a source of information for binge eating disorder. <i>Urban Health Symposium, 2022.</i></li>
+              <li>Temitope Ali, <strong>Darshan Kalola</strong>, Sudeep Peddireddy, Allison Dinar, Ozlem Gunal, Petros Levounis. Evaluating the Impact of Stigmatized Search Queries When Using Youtube as a Source of Information for Substance Use Disorder. <i>Urban Health Symposium, 2022.</i></li>
+              <li><strong>Darshan Kalola</strong>, Rocheny Noziere, Mehdi Lemdani, Sree Chinta, Allison Dinar, Ozlem Gunal, Petros Levounis. Curation Of Mental Health Keyword Search Amongst Social Media Platforms. <i>Urban Health Symposium, 2022.</i></li>
+              <li><strong>Darshan Kalola</strong>, Aretha Zhu, Arjun Gupta, Navya Pendyala, Ishani Patel, Miriam Habiel. AI-Based Sentiment Analysis Of Postoperative Experiences Of Various Refractive Surgeries As Reported On An Online Internet Forum. <i>American Society of Cataract and Refractive Surgery, 2022.</i></li>
             </ol>
-            <br/>
 
-            <h4>Presentations</h4>
+            <h3>Presentations</h3>
             <ol>
               <li><strong>Darshan Kalola</strong>, John DeGood. Analysis of electronic health records feature sets. Celebration of Computing. December 2019.</li>
               <li><strong>Darshan Kalola</strong>, Trine Krogh-Madsen, David Christini. Induced pluripotent cardiac stem cell modeling with genetic algorithms. Weill Cornell/Memorial Sloan Kettering Computational Biology Summer Symposium. August 2019.</li>
