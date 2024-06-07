@@ -185,6 +185,7 @@ const About = () => {
             <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
           </div>
         </StyledPic>
+        <br />
       </div>
     </StyledAboutSection>
   );
