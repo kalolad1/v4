@@ -47,21 +47,21 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Darshan Kalola</h2>;
+  // const one = <h1>Hi, my name is</h1>;
+  const two = <h2 className="big-heading">Darshan Kalola, MD, MPH</h2>;
   // const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
   const four = (
     <p>
-      Software engineer, 4th-year medical student, and author interested in healthcare technology.
+      Software Engineer | Physician | Author
     </p>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Contact
     </a>
   );
 
-  const items = [one, two, four, five];
+  const items = [two, four, five];
 
   return (
     <StyledHeroSection>

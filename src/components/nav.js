@@ -183,7 +183,7 @@ const Nav = ({ isHome }) => {
                       {!(name in { Blog: 0, YouTube: 1 }) ? (
                         <Link to={url}>{name}</Link>
                       ) : (
-                        <a href={url} target="_blank" rel="noopener noreferrer">
+                        <a href={url} target="_blank">
                           {name}
                         </a>
                       )}

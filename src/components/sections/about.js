@@ -141,14 +141,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Darshan Kalola and I am a  software engineer, medical student, and author interested in healthcare
+              Hello! My name is Darshan Kalola and I am a software engineer, physician, and author interested in healthcare
               technology.
             </p>
 
             <p>
               I started college at <a href="https://tcnj.edu/">TCNJ</a> as a Biology major in the
               7-year accelerated BS/MD program. My second semester, I thought I'd take a CS course
-              for fun. I loved it so much that I switched my major (but stayed pre-med).
+              for fun. I loved it so much that I switched my entire major (but stayed pre-med).
             </p>
             <p>
               While at TCNJ, I was fortunate enough to intern at{' '}
@@ -158,7 +158,7 @@ const About = () => {
             </p>
 
             <p>
-              During my first two years of medical school, I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>.
+              During my first two years of <a href="http://njms.rutgers.edu/">medical school</a>, I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>.
             </p>
 
             <p>
@@ -167,8 +167,7 @@ const About = () => {
             </p>
 
             <p>
-              Currently, I'm a rising fourth-year at{' '}
-              <a href="http://njms.rutgers.edu/">Rutgers New Jersey Medical School</a>.
+              After graduating, I took a job as a software engineer at <a href="https://ro.co/">Ro</a>, where I work on our home-grown Electronic Health Records platform.
             </p>
 
             {/*<p>Here are a few technologies I've been working with recently:</p>*/}
