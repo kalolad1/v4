@@ -3,6 +3,9 @@
   "description": "Personal Website V4",
   "version": "1.0.0",
   "author": "Darshan Kalola <darshanvkalola@darshan.com>",
+  "engines": {
+    "node": ">=16.17.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bchiang7/v4"
