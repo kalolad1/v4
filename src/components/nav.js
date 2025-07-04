@@ -17,12 +17,13 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: var(--navy);
+  background-color: white;
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
   backdrop-filter: blur(10px);
   transition: var(--transition);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   ${props =>
     props.scrollDirection === 'up' &&
@@ -30,8 +31,8 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(0px);
-      background-color: rgba(10, 25, 47, 0.85);
-      box-shadow: 0 10px 30px -10px var(--navy-shadow);
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     `};
 
   ${props =>
@@ -40,7 +41,7 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(calc(var(--nav-scroll-height) * -1));
-      box-shadow: 0 10px 30px -10px var(--navy-shadow);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     `};
 
   @media (max-width: 1080px) {
@@ -71,12 +72,13 @@ const StyledNav = styled.nav`
       &:hover,
       &:focus {
         svg {
-          fill: var(--green-tint);
+          fill: var(--green);
+          opacity: 0.8;
         }
       }
 
       svg {
-        fill: none;
+        fill: var(--green);
         transition: var(--transition);
         user-select: none;
       }
@@ -102,7 +104,7 @@ const StyledLinks = styled.div`
       margin: 0 5px;
       position: relative;
       counter-increment: item 1;
-      font-size: var(--fz-xs);
+      font-size: var(--fz-md);
 
       a {
         padding: 10px;

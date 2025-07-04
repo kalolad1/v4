@@ -8,5 +8,4 @@ url: 'https://tcnj.edu/'
 ---
 
 - 3.9 GPA
-- President of the TCNJ Table Tennis Club
-- E-Board for the Association for Computing Machinery Club
+- President of the TCNJ Table Tennis Club   

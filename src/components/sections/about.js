@@ -141,33 +141,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Darshan Kalola and I am a software engineer, physician, and author interested in healthcare
-              technology.
-            </p>
-
-            <p>
-              I started college at <a href="https://tcnj.edu/">TCNJ</a> as a Biology major in the
-              7-year accelerated BS/MD program. My second semester, I thought I'd take a CS course
-              for fun. I loved it so much that I switched my entire major (but stayed pre-med).
+              Hello! My name is Darshan Kalola and I am a software engineer, physician, and author.
             </p>
             <p>
-              While at TCNJ, I was fortunate enough to intern at{' '}
-              <a href="https://www.google.com/">Google</a>,{' '}
+              I've interned at places like {' '}
+              <a href="https://www.google.com/">Google</a> (Health AI),{' '}
               <a href="https://www.youtube.com/">YouTube</a>, and{' '}
               <a href="https://www.mskcc.org/">Memorial Sloan Kettering</a> as a software engineer.
             </p>
 
             <p>
-              During my first two years of <a href="http://njms.rutgers.edu/">medical school</a>, I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>.
+              I published a book of essays called <a href="https://www.amazon.com/Digital-Dilemma-Essays-Technology-Minimalism/dp/B0BMT2NSZM">The Digital Dilemma</a>.
             </p>
 
             <p>
-              I took a gap year after my third year in medical school (because medical training isn't long enough){' '}
-              to get a Master's of Public Health at <a href="https://www.harvard.edu/">Harvard</a>.
+              Because medical training isn't long enough, I took a gap year to get a Master's of Public Health at <a href="https://www.harvard.edu/">Harvard</a>.
             </p>
 
             <p>
-              After graduating, I took a job as a software engineer at <a href="https://ro.co/">Ro</a>, where I work on our home-grown Electronic Health Records platform.
+              I currently work at a series A startup called <a href="https://roon.com/">Roon</a>, building an AI-native collaboration platform for doctors.
+            </p>
+
+            <p>
+              I advise and angel invest in healthcare startups.
             </p>
 
             {/*<p>Here are a few technologies I've been working with recently:</p>*/}

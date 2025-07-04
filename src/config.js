@@ -25,14 +25,14 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
-    {
-      name: 'Research',
-      url: '/#research',
-    },
-    {
-      name: 'Projects',
-      url: '/#projects',
-    },
+    // {
+    //   name: 'Research',
+    //   url: '/#research',
+    // },
+    // {
+    //   name: 'Projects',
+    //   url: '/#projects',
+    // },
     {
       name: 'Blog',
       url: 'https://darshankalola.substack.com/',
@@ -40,9 +40,9 @@ module.exports = {
   ],
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#FFBF69',
+    navy: '#f8f9fa',
+    darkNavy: '#ffffff',
   },
 
   srConfig: (delay = 75, viewFactor = 0.20) => ({

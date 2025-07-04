@@ -1,16 +1,17 @@
 import { css } from 'styled-components';
 
 const prismColors = {
-  bg: `#112340`,
-  lineHighlight: `#1d2d50`,
-  blue: `#5ccfe6`,
-  purple: `#c3a6ff`,
-  green: `#bae67e`,
-  yellow: `#ffd580`,
-  orange: `#ffae57`,
-  red: `#ef6b73`,
-  grey: `#a2aabc`,
-  comment: `#8695b799`,
+  bg: `#f8f9fa`,
+  lineHighlight: `#e9ecef`,
+  blue: `#1a73e8`,
+  purple: `#8e24aa`,
+  green: `#0d904f`,
+  yellow: `#e6a700`,
+  orange: `#f57c00`,
+  red: `#d32f2f`,
+  grey: `#5f6368`,
+  comment: `#9aa0a6`,
+  text: `#202124`,
 };
 
 // https://www.gatsbyjs.org/packages/gatsby-remark-prismjs
@@ -22,7 +23,7 @@ const PrismStyles = css`
   */
   .gatsby-highlight {
     background-color: ${prismColors.bg};
-    color: ${prismColors.variable};
+    color: ${prismColors.text};
     border-radius: var(--border-radius);
     margin: 2em 0;
     padding: 1.25em;
@@ -30,6 +31,7 @@ const PrismStyles = css`
     position: relative;
     font-family: var(--font-mono);
     font-size: var(--fz-md);
+    border: 1px solid var(--lightest-navy);
   }
 
   .gatsby-highlight code[class*='language-'],
@@ -69,9 +71,10 @@ const PrismStyles = css`
     font-size: var(--fz-xs);
     background-color: ${prismColors.bg};
     color: ${prismColors.grey};
+    border: 1px solid var(--lightest-navy);
+    border-bottom: none;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-    border-bottom: 1px solid ${prismColors.lineHighlight};
 
     & + .gatsby-highlight {
       margin-top: 0;
@@ -94,133 +97,95 @@ const PrismStyles = css`
   /* Language badges */
   .gatsby-highlight pre[class*='language-']::before {
     background: var(--lightest-navy);
-    color: var(--white);
+    color: var(--lightest-slate);
     font-size: var(--fz-xxs);
     font-family: var(--font-mono);
     line-height: 1.5;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    border-radius: 0 0 3px 3px;
     position: absolute;
     top: 0;
-    left: 1.25rem;
-    padding: 0.25rem 0.5rem;
-  }
-  .gatsby-highlight pre[class='language-javascript']::before {
-    content: 'js';
-  }
-  .gatsby-highlight pre[class='language-js']::before {
-    content: 'js';
-  }
-  .gatsby-highlight pre[class='language-jsx']::before {
-    content: 'jsx';
-  }
-  .gatsby-highlight pre[class='language-graphql']::before {
-    content: 'GraphQL';
-  }
-  .gatsby-highlight pre[class='language-html']::before {
-    content: 'html';
-  }
-  .gatsby-highlight pre[class='language-css']::before {
-    content: 'css';
-  }
-  .gatsby-highlight pre[class='language-mdx']::before {
-    content: 'mdx';
-  }
-  .gatsby-highlight pre[class='language-shell']::before {
-    content: 'shell';
-  }
-  .gatsby-highlight pre[class='language-sh']::before {
-    content: 'sh';
-  }
-  .gatsby-highlight pre[class='language-bash']::before {
-    content: 'bash';
-  }
-  .gatsby-highlight pre[class='language-yaml']::before {
-    content: 'yaml';
-  }
-  .gatsby-highlight pre[class='language-markdown']::before {
-    content: 'md';
-  }
-  .gatsby-highlight pre[class='language-json']::before,
-  .gatsby-highlight pre[class='language-json5']::before {
-    content: 'json';
-  }
-  .gatsby-highlight pre[class='language-diff']::before {
-    content: 'diff';
-  }
-  .gatsby-highlight pre[class='language-text']::before {
-    content: 'text';
-  }
-  .gatsby-highlight pre[class='language-flow']::before {
-    content: 'flow';
+    right: 1.5em;
+    padding: 0.25em 0.5em;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    content: attr(data-language);
+    text-transform: uppercase;
   }
 
-  /* Prism Styles */
-  .token {
-    display: inline;
-  }
-  .token.comment,
-  .token.block-comment,
-  .token.prolog,
-  .token.doctype,
-  .token.cdata {
-    color: ${prismColors.comment};
-  }
-  .token.punctuation {
-    color: ${prismColors.grey};
-  }
-  .token.namespace,
-  .token.deleted {
-    color: ${prismColors.red};
-  }
-  .token.function-name,
-  .token.function,
-  .token.class-name,
-  .token.constant,
-  .token.symbol {
-    color: ${prismColors.yellow};
-  }
-  .token.attr-name,
+  /* Override PrismJS styles */
   .token.operator,
-  .token.rule {
-    color: ${prismColors.orange};
-  }
   .token.keyword,
-  .token.boolean,
-  .token.number,
-  .token.property {
+  .token.tag {
     color: ${prismColors.purple};
   }
-  .token.tag,
+
   .token.selector,
-  .token.important,
-  .token.atrule,
-  .token.builtin,
-  .token.entity,
-  .token.url {
+  .token.selector .class,
+  .token.function {
     color: ${prismColors.blue};
   }
+
+  .token.attr-name,
+  .token.keyword {
+    color: ${prismColors.purple};
+  }
+
+  .token.boolean,
+  .token.number,
+  .token.constant,
+  .token.symbol,
+  .token.deleted {
+    color: ${prismColors.orange};
+  }
+
   .token.string,
   .token.char,
   .token.attr-value,
   .token.regex,
-  .token.variable,
+  .token.variable {
+    color: ${prismColors.green};
+  }
+
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    color: ${prismColors.comment};
+    font-style: italic;
+  }
+
+  .token.punctuation {
+    color: ${prismColors.grey};
+  }
+
+  .token.builtin,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string {
+    color: ${prismColors.blue};
+  }
+
+  .token.operator {
+    background: transparent;
+  }
+
+  .token.atrule,
   .token.inserted {
     color: ${prismColors.green};
   }
+
   .token.important,
   .token.bold {
-    font-weight: 600;
+    font-weight: bold;
   }
+
   .token.italic {
     font-style: italic;
   }
+
   .token.entity {
     cursor: help;
-  }
-  .namespace {
-    opacity: 0.7;
   }
 `;
 

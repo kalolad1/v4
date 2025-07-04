@@ -1,7 +1,8 @@
 ---
+date: '2023-05-01'
 title: 'Founder'
 company: 'Pillanti'
-range: 'Summer 2023 - Spring 2024'
+range: 'August 2023 - May 2024'
 url: 'https://www.healthlabaccelerator.harvard.edu/h2a-harvard24-cohort'
 ---
 

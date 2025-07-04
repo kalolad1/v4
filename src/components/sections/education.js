@@ -66,11 +66,12 @@ const StyledTabButton = styled.button`
   padding: 0 20px 2px;
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
-  color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
+  color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--light-slate)')};
   font-family: var(--font-mono);
   font-size: 20px;
   text-align: left;
   white-space: nowrap;
+  transition: var(--transition);
 
   @media (max-width: 768px) {
     padding: 0 15px 2px;
@@ -87,6 +88,7 @@ const StyledTabButton = styled.button`
   &:hover,
   &:focus {
     background-color: var(--light-navy);
+    color: var(--green);
   }
 `;
 
@@ -128,15 +130,19 @@ const StyledTabPanels = styled.div`
 const StyledTabPanel = styled.div`
   width: 100%;
   height: auto;
-  padding: 10px 5px;
+  padding-top: 10px;
+  padding-left: 30px;
 
-  ul {
-    ${({ theme }) => theme.mixins.fancyList};
-    font-size: var(--fz-xl);
+  @media (max-width: 600px) {
+    padding-left: 0;
   }
 
   h3 {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--lightest-slate);
 
     .company {
       color: var(--green);

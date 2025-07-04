@@ -51,7 +51,7 @@ const Hero = () => {
   const two = <h2 className="big-heading">Darshan Kalola, MD, MPH</h2>;
   // const three = <h3 className="big-heading">I build tech for healthcare.</h3>;
   const four = (
-    <p>
+    <p style={{ fontSize: 'var(--fz-xl)' }}>
       Software Engineer | Physician | Author
     </p>
   );
