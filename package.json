@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Darshan Kalola <darshanvkalola@darshan.com>",
   "engines": {
-    "node": ">=18.17.0"
+    "node": ">=20.18.1"
   },
   "repository": {
     "type": "git",
