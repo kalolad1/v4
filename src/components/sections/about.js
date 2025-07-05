@@ -155,7 +155,7 @@ const About = () => {
             </p>
 
             <p>
-              Because medical training isn't long enough, I took a gap year to get a Master's of Public Health at <a href="https://www.harvard.edu/">Harvard</a>.
+              Because medical training isn't long enough, I took a gap year to get a Master of Public Health at <a href="https://www.harvard.edu/">Harvard</a>.
             </p>
 
             <p>
