@@ -144,7 +144,7 @@ const About = () => {
               Hello! My name is Darshan Kalola and I am a software engineer, physician, and author.
             </p>
             <p>
-              I've interned at places like {' '}
+              I've interned at {' '}
               <a href="https://www.google.com/">Google</a> (Health AI),{' '}
               <a href="https://www.youtube.com/">YouTube</a>, and{' '}
               <a href="https://www.mskcc.org/">Memorial Sloan Kettering</a> as a software engineer.
